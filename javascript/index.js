@@ -1,8 +1,17 @@
-const chronometer = new Chronometer();
+const chronometer = new Chronometer(); {
+  this.currentTime = 0
+  this.intervalId = 0
+
+}
 
 // get the buttons:
 const btnLeft = document.getElementById('btnLeft');
 const btnRight = document.getElementById('btnRight');
+
+
+
+
+
 
 // get the DOM elements that will serve us to display the time:
 let minDec = document.getElementById('minDec');
@@ -14,9 +23,7 @@ let milUni = document.getElementById('milUni');
 let splits = document.getElementById('splits');
 
 function printTime() {
-  // ... your code goes here
-}
-
+  
 function printMinutes() {
   // ... your code goes here
 }
